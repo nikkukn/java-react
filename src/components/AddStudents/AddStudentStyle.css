@@ -1,0 +1,103 @@
+.form-class {
+	font-family: Lato;
+	height: 97vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.form-update-class {
+	font-family: Lato;
+	height: 97vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	min-width: 100px;
+	min-height: 400px;
+	padding: 20px 40px 40px 40px;
+	border-radius: 6px;
+	background-color: #fefefe;
+	margin-top: 10px;
+}
+.input-w label {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: large;
+	margin-left: 10px;
+	width: 20%;
+}
+
+.input-w input {
+	display: inline-block;
+}
+
+input {
+	font-size: 1em;
+}
+form > h1 {
+	display: flex;
+	justify-content: center;
+	font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+	font-size: 2em;
+	font-weight: lighter;
+	margin-top: 0.25em;
+
+	letter-spacing: 2px;
+}
+
+.info {
+	padding-bottom: 1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+input,
+.input-w select {
+	display: inline-block;
+}
+
+input[type="checkbox"] {
+	display: inline-block;
+	width: auto;
+	margin-top: .5em;
+	margin-right: 10px;
+}
+
+button {
+	min-width: 10%;
+	cursor: pointer;
+	margin-right: 0.25em;
+	margin-top: 0.5em;
+	padding: 0.938em;
+	border: none;
+	border-radius: 4px;
+	background-color: #22223b;
+	color: #fefefe;
+}
+button:hover {
+	background-color: #4a4e69;
+	color: #fefefe;
+}
+
+.error {
+	color: #db2269;
+	font-size: 0.5em;
+	display: relative;
+}
+
+.submit {
+	width: 10%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.sButton {
+	width: 20%;
+}
